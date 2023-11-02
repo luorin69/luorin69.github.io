@@ -1,0 +1,172 @@
+@font-face {
+	font-family: MoonKids;
+	src: url(../fonts/Moonkids.ttf); }
+
+.goofy {
+	font-family: MoonKids; }
+	
+body {
+	color: #FF1B1C; 
+	padding: 5%;
+	font-family: arial;
+	font-size: 1vw; 
+	background: #FBEDDA; 
+	background-image: url("../images/bgimg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;}
+	
+#important1 {
+	font-size:300%;}
+	
+h1 {
+	color: #FF7F11;
+	font-family: MoonKids;
+	text-align: center; }
+
+h2, h3, h4 {
+	color: #FF7F11}
+	
+.main {
+	color: #50B2C0;}
+	
+li>a {
+		color:#FBEDDA ;}
+		
+.mynav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	color: #FBEDDA;
+	height: 30px;
+	background-color: #50B2C0;
+	border-width: 10px;
+	border-color: #FF7F11;
+	border-style: solid; }
+	
+	
+	
+	
+.mynav {
+	display: flex; }
+	
+.credentials {
+	flex-grow: 1;
+	border-style: solid;}
+
+.feedback{
+	flex-grow: 5;
+	border-style: solid;}
+
+.contact{
+	flex-grow: 1;
+	border-style: solid;}
+	
+	
+	
+	
+	
+ul {
+	display: inline-block; }
+
+	
+fieldset {
+	width: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	padding: 10px 20px; }
+ legend {
+ 	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;}
+	
+input:focus {
+	border: 10px solid #50B2C0;
+	outline: blue; }
+	
+#box:focus {
+	background-color: #50B2C0;}
+	
+	
+	
+.gd{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px; }
+
+.studio{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-rows: 400px 400px;
+	gap: 20px; }
+	
+
+	
+img#gt2 {
+	height: 334px;
+	width: 250px;
+	border: 20px solid red;}
+	
+img#gt1 {
+	height: 334px ;
+	width: 250px ;
+	border: 20px solid red;}
+
+img#album {
+	height: 250px;
+	width: 250px;
+	border: 20px solid red;}
+
+img#addiction {
+	height: 332px;
+	width: 250px; 
+	border: 20px solid red;}
+
+img#bust {
+	height: 316px;
+	width: 250px;
+	border: 20px solid red; }
+
+img#couple {
+	height: 198px ;
+	width: 250px ;
+	border: 20px solid red; }
+	
+img#beach {
+	height: 284px;
+	width: 250px ;
+	border: 20px solid red;}
+
+img#man {
+	height: 301px;
+	width: 250px;
+	border: 20px solid red;}
+	
+	
+		@media only screen and (max-width: 800px) {
+    body {
+        background-color: black;
+        color: green;
+        border-style: solid;
+        border-color: green;
+   }
+}
+	
+		@media only screen and (min-width: 800px) {
+    body {
+        background-color: pink;
+        color: purple;
+        border-style: solid;
+        border-color: purple;
+   }
+}
+
+	
+
+	
